@@ -1,0 +1,18 @@
+# Compiled binaries (go build output)
+/services/*/restaurant
+/services/*/order
+*.exe
+*.test
+*.out
+
+# Go coverage / profiling output
+coverage.*
+*.prof
+
+# Editor / OS noise
+.DS_Store
+.vscode/
+.idea/
+
+# Local env files (never commit secrets)
+.env
